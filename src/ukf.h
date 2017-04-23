@@ -108,6 +108,8 @@ public:
    * @param meas_package The measurement at k+1
    */
   void UpdateRadar(MeasurementPackage meas_package);
+
+  double constrainAngle(double x);
 };
 
 #endif /* UKF_H */
